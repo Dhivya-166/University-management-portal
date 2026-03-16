@@ -1,0 +1,11 @@
+-- universtity management system
+CREATE DATABASE university;
+
+USE university;
+
+CREATE TABLE students (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    department VARCHAR(100),
+    email VARCHAR(100)
+);
